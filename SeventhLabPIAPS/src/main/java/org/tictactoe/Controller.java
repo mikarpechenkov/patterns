@@ -1,12 +1,14 @@
 package org.tictactoe;
 
+import org.tictactoe.factory.GameFactory;
+
 public class Controller {
     private Model model;
     private View view;
 
-    public Controller(Model model, View view) {
-        this.model = model;
-        this.view = view;
+    public Controller(GameFactory factory) {
+        model = factory.createModel();
+        view = factory.createView();
         model.addObserver(view);
         view.setModel(model);
     }
@@ -14,6 +16,7 @@ public class Controller {
     public void startGame() {
         view.drawBoard();
         while (true) {
+
             int[] move = view.getPlayerMove();
             int row = move[0];
             int col = move[1];
