@@ -2,7 +2,7 @@ package org.tictactoe;
 
 import java.util.Scanner;
 
-public class View implements GameObserver{
+public class View implements GameObserver {
     private Model model;
 
     public void setModel(Model model) {
@@ -28,11 +28,33 @@ public class View implements GameObserver{
 
     public int[] getPlayerMove() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter row (0-2): ");
-        int row = scanner.nextInt();
-        System.out.print("Enter column (0-2): ");
-        int col = scanner.nextInt();
-        return new int[]{row, col};
+        int row = 0;
+        int col = 0;
+        System.out.print("Enter row (1-3): ");
+        boolean flag = false;
+        while (!flag)
+            try {
+                row = Integer.parseInt(scanner.nextLine());
+                if (row <= 3 && row >= 1)
+                    flag = true;
+                else
+                    throw new RuntimeException();
+            } catch (Exception e) {
+                System.out.print("Input correct row number: ");
+            }
+        flag = false;
+        System.out.print("Enter column (1-3): ");
+        while (!flag)
+            try {
+                col = Integer.parseInt(scanner.nextLine());
+                if (col <= 3 && col >= 1)
+                    flag = true;
+                else
+                    throw new RuntimeException();
+            } catch (Exception e) {
+                System.out.print("Input correct column number: ");
+            }
+        return new int[]{row - 1, col - 1};
     }
 
     public void showWinner(Character winner) {

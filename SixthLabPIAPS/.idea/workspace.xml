@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb80c44-87d4-4b92-b0cd-e210e9640960" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/factory/TicTacToeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FifthLabPIAPS/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FifthLabPIAPS/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FifthLabPIAPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FifthLabPIAPS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/tictactoe/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/tictactoe/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/target/classes/tictactoe/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/target/classes/tictactoe/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/GameFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tictactoe/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tictactoe/GameObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tictactoe/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tictactoe/TicTacToeGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tictactoe/View.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685180476812</updated>
-      <workItem from="1685180478307" duration="690000" />
+      <workItem from="1685180478307" duration="1684000" />
     </task>
     <servers />
   </component>
