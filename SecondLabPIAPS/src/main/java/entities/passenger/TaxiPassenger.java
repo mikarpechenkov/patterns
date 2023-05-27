@@ -12,7 +12,7 @@ public class TaxiPassenger extends Passenger {
         if (typeOfPassenger != TypeOfPassenger.PREFERENTIAL)
             this.typeOfPassenger = typeOfPassenger;
         else
-            System.out.println("Не существует льгот для такси");
+            System.out.println("Не существует льгот для такси");;
     }
 
     @Override

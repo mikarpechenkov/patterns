@@ -15,10 +15,6 @@ public abstract class BoardAnyCar {
     protected Driver driver;
     protected List<Passenger> passengers;
 
-    public BoardAnyCar() {
-        System.out.println("Используется конструктор абстрактного класса BoardAny");
-    }
-
     public boolean boardDriver(Driver driver) {
         if (this.driver == null)
             if (isRightDriver(driver)) {
@@ -61,6 +57,6 @@ public abstract class BoardAnyCar {
     public String toString() {
         return this.getClass().getSimpleName() + " with " + passengers.size() + " and " +
                 (driver != null ? "with" : "without") + " driver and this car " +
-                (isReadyToGo() ? "is" : "isn't") + " ready to go";
+                (isReadyToGo() ? "is" : "isn't") + " ready to go" + "\n info about passengers:\n" + passengers;
     }
 }

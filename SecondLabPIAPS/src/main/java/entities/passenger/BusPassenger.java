@@ -1,7 +1,5 @@
 package entities.passenger;
 
-import entities.passenger.Passenger;
-
 public class BusPassenger extends Passenger {
     private int ticketPrice;
 

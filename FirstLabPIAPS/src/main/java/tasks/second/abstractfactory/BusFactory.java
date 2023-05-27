@@ -6,16 +6,16 @@ import tasks.second.entities.boards.BoardBus;
 import tasks.second.entities.drivers.BusDriver;
 import tasks.second.entities.drivers.Driver;
 
-public class BusFactory implements ParkFactory{
+public class BusFactory implements ParkFactory {
     private static BusFactory instance;
 
-    private BusFactory(){
+    private BusFactory() {
         System.out.println("Создается BusFactory");
     }
 
-    public static ParkFactory getInstance(){
-        if(instance==null)
-            instance=new BusFactory();
+    public static ParkFactory getInstance() {
+        if (instance == null)
+            instance = new BusFactory();
         return instance;
     }
 
@@ -29,3 +29,5 @@ public class BusFactory implements ParkFactory{
         return new BusDriver();
     }
 }
+
+
