@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6196fde-ed5b-410d-9fe5-732456f20463" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLabPIAPS/src/main/java/org/tictactoe/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SixthLabPIAPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SixthLabPIAPS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SixthLabPIAPS/out/production/SixthLabPIAPS/entities/observers/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SixthLabPIAPS/out/production/SixthLabPIAPS/entities/observers/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SixthLabPIAPS/src/entities/observers/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SixthLabPIAPS/src/entities/observers/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,10 +62,16 @@
       <workItem from="1683905704907" duration="671000" />
       <workItem from="1683928293486" duration="756000" />
       <workItem from="1685178772399" duration="561000" />
+      <workItem from="1685195175428" duration="206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

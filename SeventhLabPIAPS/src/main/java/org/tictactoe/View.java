@@ -3,6 +3,7 @@ package org.tictactoe;
 import java.util.Scanner;
 
 public class View implements GameObserver {
+    public static final int SIZE = 5;
     private Model model;
 
     public void setModel(Model model) {
@@ -11,16 +12,16 @@ public class View implements GameObserver {
 
     public void drawBoard() {
         char[][] board = model.getBoard();
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
                 System.out.print(board[i][j]);
-                if (j < 2) {
+                if (j < SIZE-1) {
                     System.out.print(" | ");
                 }
             }
             System.out.println();
-            if (i < 2) {
-                System.out.println("---------");
+            if (i < SIZE-1) {
+                System.out.println("-------------");
             }
         }
         System.out.println();
@@ -30,12 +31,12 @@ public class View implements GameObserver {
         Scanner scanner = new Scanner(System.in);
         int row = 0;
         int col = 0;
-        System.out.print("Enter row (1-3): ");
+        System.out.print("Enter row (1-4): ");
         boolean flag = false;
         while (!flag)
             try {
                 row = Integer.parseInt(scanner.nextLine());
-                if (row <= 3 && row >= 1)
+                if (row <= SIZE && row >= 1)
                     flag = true;
                 else
                     throw new RuntimeException();
@@ -43,11 +44,11 @@ public class View implements GameObserver {
                 System.out.print("Input correct row number: ");
             }
         flag = false;
-        System.out.print("Enter column (1-3): ");
+        System.out.print("Enter column (1-4): ");
         while (!flag)
             try {
                 col = Integer.parseInt(scanner.nextLine());
-                if (col <= 3 && col >= 1)
+                if (col <= SIZE && col >= 1)
                     flag = true;
                 else
                     throw new RuntimeException();

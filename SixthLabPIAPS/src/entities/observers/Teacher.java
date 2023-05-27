@@ -30,15 +30,15 @@ public class Teacher implements Observer {
         if (!database.getInfo().containsKey(weekNumber))
             database.getInfo().put(weekNumber, new HashMap<>());
         database.getInfo().get(weekNumber).put(this, report);
-        System.out.println(String.format("%s добавляет отчет за %d неделю: %s", fullName, weekNumber, report.isBlank() ? "пустой" : report));
+        System.out.printf("%s добавляет отчет за %d неделю: %s%n", fullName, weekNumber, report.isBlank() ? "пустой" : report);
     }
 
     @Override
     public void update(List<Observer> offenders) {
-        if (offenders == null || offenders.contains(this))
-            System.out.println(String.format("%s проинформирован кафедрой о том, что деканат НЕ получил его отчет", fullName));
+        if (offenders != null && offenders.contains(this))
+            System.out.printf("%s проинформирован кафедрой о том, что деканат НЕ получил его отчет%n", fullName);
         else
-            System.out.println(String.format("%s проинформирован кафедрой о том, что деканат получил его отчет", fullName));
+            System.out.printf("%s проинформирован кафедрой о том, что деканат получил его отчет%n", fullName);
     }
 
     @Override
